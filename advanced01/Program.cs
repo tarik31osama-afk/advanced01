@@ -66,6 +66,9 @@
 
             #endregion
 
+            #region q9
+            // new() constraint requires a type to have a public parameterless constructor
+            #endregion
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace advanced01
 {
-    internal class ClassCost<T>where T : class
+    internal class ClassConst<T>where T : class
     {
         public T ? value {  get; set; }
 
