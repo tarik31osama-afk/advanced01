@@ -34,7 +34,23 @@
 
             #endregion
 
-   
+            #region q5
+            T FindMax<T>(T a, T b)where T : IComparable<T> 
+            {
+
+                if (a.CompareTo(b)>0)
+                {
+                    return a;
+                    
+                }
+                return b;
+
+            }
+            
+            #endregion
+
+
+
         }
     }
 }
