@@ -1,4 +1,6 @@
-﻿namespace advanced01
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace advanced01
 {
     internal class Program
     {
@@ -80,9 +82,20 @@
             //A base class constraint requires the type parameter to be the specified base class or inherit from it
             #endregion
 
-
             #region q13
             //The default keyword returns the default value of a type
+            #endregion
+
+            #region q14
+            T SafeList<T>(T index,T n)where T : IComparable<T> 
+            {
+                if(index.CompareTo(n)>0)
+                {
+                    return index;
+
+                }
+                return default(T)!;
+            }
             #endregion
 
         }
