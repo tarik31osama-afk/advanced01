@@ -80,7 +80,11 @@
             //A base class constraint requires the type parameter to be the specified base class or inherit from it
             #endregion
 
-         
+
+            #region q13
+            //The default keyword returns the default value of a type
+            #endregion
+
         }
     }
 }
