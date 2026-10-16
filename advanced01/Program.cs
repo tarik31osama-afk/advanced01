@@ -115,6 +115,10 @@ namespace advanced01
             //Contravariance (in): Allows conversion from a base type to a derived type. It is used for input
 
             #endregion
+
+            #region q18
+            //Each constructed generic type has its own separate static members
+            #endregion
         }
     }
 }
