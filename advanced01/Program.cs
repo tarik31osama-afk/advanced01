@@ -51,7 +51,14 @@
 
             #region q6
             //A generic interface defines a contract using a type parameter
-           
+
+            #endregion
+
+            #region q7
+
+            //The struct constraint restricts the type parameter to value type
+
+            
             #endregion
 
         }
