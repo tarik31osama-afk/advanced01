@@ -75,6 +75,10 @@
             //An interface constraint requires the type parameter to implement a specific interface
 
             #endregion
+
+            #region q11
+            //A base class constraint requires the type parameter to be the specified base class or inherit from it
+            #endregion
         }
     }
 }
