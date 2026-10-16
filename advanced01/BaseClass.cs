@@ -17,5 +17,15 @@
 
         }
     }
+    public class Const <T> where T: BaseClass,printable
+    {
+        public void printItem(T entity) 
+        {
+            entity.print();
+
+
+        }
+    }
+
 
 }
