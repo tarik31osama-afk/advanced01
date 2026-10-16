@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace advanced01
+﻿namespace advanced01
 {
     internal class Program
     {
@@ -13,7 +11,11 @@ namespace advanced01
 
             #endregion
 
-          
+            #region q3
+            //allow a generic class to work with more than one data type
+           
+
+            #endregion
 
 
         }
