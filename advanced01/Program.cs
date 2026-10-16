@@ -13,8 +13,12 @@
 
             #region q3
             //allow a generic class to work with more than one data type
-           
 
+
+            #endregion
+
+            #region q4
+            //A generic method is a method that uses type parameters to work with different data types
             #endregion
 
 
