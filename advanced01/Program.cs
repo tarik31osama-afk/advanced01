@@ -119,6 +119,11 @@ namespace advanced01
             #region q18
             //Each constructed generic type has its own separate static members
             #endregion
+
+            #region 19
+
+            //A generic class can inherit from another generic class by passing a type parameter to the base class
+            #endregion
         }
     }
 }
