@@ -46,10 +46,13 @@
                 return b;
 
             }
-            
+
             #endregion
 
-
+            #region q6
+            //A generic interface defines a contract using a type parameter
+           
+            #endregion
 
         }
     }
