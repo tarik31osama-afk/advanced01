@@ -58,7 +58,12 @@
 
             //The struct constraint restricts the type parameter to value type
 
-            
+
+            #endregion
+
+            #region q8
+            //The class constraint restricts the type parameter to reference type
+
             #endregion
 
         }
