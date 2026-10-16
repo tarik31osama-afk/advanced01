@@ -69,6 +69,12 @@
             #region q9
             // new() constraint requires a type to have a public parameterless constructor
             #endregion
+
+            #region q10
+
+            //An interface constraint requires the type parameter to implement a specific interface
+
+            #endregion
         }
     }
 }
