@@ -98,10 +98,15 @@ namespace advanced01
             }
             #endregion
 
-            #region 15
+            #region q15
             // Covariance allows a generic interface of a derived type to be used where a generic interface of a base type is expected
             // The out keyword allows the type parameter to be used in output
 
+            #endregion
+
+            #region q16
+            //Contravariance allows a generic interface of a base type to be used where a generic interface of a derived type is expected
+            //The in keyword allows the type parameter to be used in input
             #endregion
         }
     }
