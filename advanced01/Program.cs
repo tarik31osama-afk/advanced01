@@ -20,7 +20,7 @@
             #region q4
             //A generic method is a method that uses type parameters to work with different data types
 
-            void Swap<T>(T a, T b)
+            void Swap<T>(ref T a, ref T b)
             {
                 T temp = a;
 
@@ -30,11 +30,11 @@
                 Console.WriteLine(a);
                 Console.WriteLine(b);
             }
-            
-            
+
+
             #endregion
 
-      
+   
         }
     }
 }
