@@ -108,6 +108,13 @@ namespace advanced01
             //Contravariance allows a generic interface of a base type to be used where a generic interface of a derived type is expected
             //The in keyword allows the type parameter to be used in input
             #endregion
+
+            #region q17
+
+            //Covariance (out): Allows conversion from a derived type to a base type. It is used for output
+            //Contravariance (in): Allows conversion from a base type to a derived type. It is used for input
+
+            #endregion
         }
     }
 }
